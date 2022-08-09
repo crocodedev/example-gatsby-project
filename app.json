@@ -1,0 +1,15 @@
+{
+  "name": "Example Gatsby Project",
+  "description": "Example Gatsby Project",
+  "keywords": [],
+  "repository": "https://git-repository",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
+  ]
+}
